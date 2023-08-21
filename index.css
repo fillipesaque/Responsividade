@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: brown;
+}
+.img-content{
+    width: 750px;
+    height: auto;
+}
+
+.text-content{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* pc + */
+@media(max-width:2560px){
+    .img-content{
+        width: 100%;
+        height: auto;
+    }
+    .title-content{
+        text-align: center;
+    }
+    .text-content{
+        text-align: center;
+    }
+}
+/*tablete*/
+@media(max-width:770px){
+    .img-content{
+        width: 100%;
+        height: auto;
+    }
+    .title-content{
+        text-align: center;
+    }
+    .text-content{
+        text-align: center;
+    }
+}
+/* mobile */
+@media(max-width:320px){
+    .img-content{
+        width: 100%;
+        height: auto;
+    }
+    .text-content{
+        text-align: center;
+    }
+    .title-content{
+        text-align: center;
+    }
+}
+
